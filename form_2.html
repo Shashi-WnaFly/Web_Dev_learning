@@ -5,33 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
-    <fieldset>
+    <fieldset style="width : 800px; border: none; background-color: rgb(107, 202, 170); color: white;">
+        <form action="" method="post" style="margin-left : 70px; margin: 10px 50px;">
         <h2>Contact form</h2>
         <br><br>
 
         <div>
             <label for="name">Your Name</label>
-            <input type="text" name="fname" id="name" placeholder="First Name">
-            <input type="text" name="lname" id="name" placeholder="Last Name">
+            <input type="text" name="fname" id="name" placeholder="First Name" style="margin : 7px 0px 7px 72px;">
+            <input type="text" name="lname" id="name" placeholder="Last Name" style="margin : 10px 5px;">
         </div>
 
         <div>
             <label for="email">Your email</label>
-            <input type="text" name="email" id="email" placeholder="e.g.hello@gmail.com">
+            <input type="text" name="email" id="email" placeholder="e.g.hello@gmail.com" style="margin : 10px 75px;">
         </div>
 
         <div>
             <label for="phone">Phone*</label>
-            <input type="text" name="pno.1" id="phone" placeholder="###">
-            <input type="text" name="pno.2" id="phone" placeholder="###">
-            <input type="text" name="pno.3" id="phone" placeholder="###">
+            <input type="text" name="pno.2" id="phone" placeholder="###" style="margin-left : 98px;">
+            <input type="text" name="pno.1" id="phone" placeholder="###" style="margin : 10px 5px;">
+            <input type="text" name="pno.3" id="phone" placeholder="###" style="margin : 10px 5px;">
         </div>
 
         <div>
             <label for="Msubject">Message Subject*</label>
-            <select name="Msubject" id="Msubject">
+            <select name="Msubject" id="Msubject" style="margin:10px 30px;">
                 <option value="data Science">Data Science</option>
                 <option value="Artificial Intelligence">Artificial Intelligence</option>
                 <option value="Software Engineering">Software Engineering</option>
@@ -39,11 +41,26 @@
             </select>
         </div>
 
+        <table>
+            <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea name="message" id="message" cols="30" rows="5" style="margin: 10px 87px;"></textarea></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td><label for="Verify">Verification*</label></td>
+                <td><div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ" style="margin:10px 59px;"></div></td>
+            </tr>
+        </table>
+        <hr>
+
         <div>
-            <label for="message">Message*</label>
-            input:textarea
+            <input type="submit" name="submit" id="submit" style="width: 120px; height: 40px; border: none; border-radius: 7px;">
         </div>
 
     </fieldset>
+</form>
 </body>
 </html>
