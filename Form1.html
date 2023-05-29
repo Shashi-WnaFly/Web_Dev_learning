@@ -7,27 +7,27 @@
     <title>Novell Services</title>
 </head>
 <body>
-    <fieldset style="margin : 0px 100px">
+    <fieldset style="margin : 0px 100px;">
         <legend><h2>Novell Services Login</h2></legend>
         <form style="margin : 40px 0px">
             <div style="margin : 10px 0px">
-                <label for="username" style="margin : 0px 50px">Username :</label>
+                <label for="username" style="margin : 0px 50px;">Username :</label>
                 <input type="text" name="Username" id="username" style="margin-left : 130px"> 
             </div>
             
             <div style="margin : 10px 0px">
-                <label for="password" style="margin : 0px 50px">Password :</label>
+                <label for="password" style="margin : 0px 50px;">Password :</label>
                 <input type="text" name="Password" id="password" style="margin-left : 133px"> 
 
             </div>
 
             <div style="margin : 10px 0px">
-                <label for="employ" style="margin : 0px 50px">City Of Employment :</label>
+                <label for="employ" style="margin : 0px 50px;">City Of Employment :</label>
                 <input type="text" name="City Of Employment" id="employ" style="margin-left : 60px"> 
             </div>
 
             <div style="margin : 10px 0px">
-                <label for="server" style="margin : 0px 50px">Web Server :</label>
+                <label for="server" style="margin : 0px 50px;">Web Server :</label>
                 <select name="Web Server" id="server" style="margin-left : 121px">
                     <option value="choose">--Choose a server--</option>
                     <option value="Google server">Google Server</option>
@@ -37,41 +37,51 @@
             </div>
 
                 <div>
-                    <label for="role" style="margin : 0px 50px">Please specify your role :</label>
+                    <label for="role" style="margin : 0px 50px;">Please specify your role :</label>
                     <input type="radio" name="role" id="role" style="margin : 0px 50px">
                     <label for="role">Admin</label>
                 </div>
 
-                <div style= "margin-left : 265px">
+                <div style= "margin-left : 265px;">
                     <input type="radio" name="role" id="engineer" style="margin : 0px 50px">
                     <label for="engineer">Engineer</label>
                 </div>
 
-                <div style= "margin-left : 265px">
+                <div style= "margin-left : 265px;">
                     <input type="radio" name="role" id="manager" style="margin : 0px 50px">
                     <label for="manager">Manager</label>
                 </div>
 
-                <div style= "margin-left : 265px">
+                <div style= "margin-left : 265px;">
                     <input type="radio" name="role" id="guest" style="margin : 0px 50px">
                     <label for="guest">Guest</label>
                 </div>
 
-                <fieldset style="width: 450px;">
+                <fieldset style="width: 410px; margin-left : 50px;" >
                     <legend>Single Sign-on to the following</legend>
                     <div>
-                        <input type="checkbox" name="Sign-on" id="mail" style="margin-left : 315px">
+                        <input type="checkbox" name="Sign-on" id="mail" style="margin-left : 252px;">
                         <label for="mail">Mail</label>
                     </div>
                     
-                    <input type="checkbox" name="Sign-on" id="payroll" style="margin-left : 59px">
+                    <input type="checkbox" name="Sign-on" id="payroll" style="margin-left : 252px;">
                     <label for="payroll">Payroll</label>
                     
                     <div>
-                        <input type="checkbox" name="Sign-on" id="service" style="margin-left : 315px">
+                        <input type="checkbox" name="Sign-on" id="service" style="margin-left : 252px;">
                         <label for="service">Self-Service</label>
                     </div>
                 </fieldset>
+
+                    <div style="margin : 10px 50px;">
+                        <label for="date">D.O.B</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+
+                    <div style="width : 130px; margin: auto;">
+                        <button>Login</button>
+                        <input type="reset" name="reset">
+                    </div>
                     
             
         </form>
