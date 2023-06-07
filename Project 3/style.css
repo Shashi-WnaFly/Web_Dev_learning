@@ -5,29 +5,44 @@ body {
     background: url(free-landscape-vector.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 17px;
 }
 
 
-#head{
+.head{
     display: block;
     width: 400px;
     margin: 260px auto;
-    font-family: 'Pacifico', cursive;
-    font-size: 42px;
+    font-family: 'Clicker Script', cursive;
     line-height: 20px;
+    text-align: center;
+    color: #696059;
 }
 
-h1{
+#shashi{
+    font-size: 82px;
     color: #14a58d;
-    font-weight: lighter;
+}
+#programmer{
+    font-size: 52px;
+    font-weight: 800;
 }
 
 #pro{
     text-decoration: underline;
+    font-size: 55px;
+    color: white;
 }
 
 .firstline{
-    margin-top: 800px;    
+    margin-top: 80px;
+    border: none;
+    border-top: 6px solid #14a58d;
+    border-top-style: dotted;
+    width: 3%;
+    color: #14a58d;
+    
 }
 
 .profile{
@@ -50,5 +65,26 @@ h1{
 #hello{
     margin-bottom: 50px;
     font-size: 40px;
-    
+    font-family: 'Ubuntu', sans-serif;
+    color : #94B555;
+}
+
+#abc{
+    width: 95%;
+}
+#skill{
+    text-align: center;
+    margin-top: 125px;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color : #94B555;
+}
+.myskill{
+    display: block;
+    width: 800px;
+    margin: auto;
+    margin-top: 110px;
+}
+h3{
+    color : #94B555;
 }
