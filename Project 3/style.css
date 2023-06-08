@@ -24,6 +24,7 @@ body {
     font-size: 82px;
     color: #14a58d;
 }
+
 #programmer{
     font-size: 52px;
     font-weight: 800;
@@ -119,7 +120,7 @@ body {
 
 .contactme{
     padding: 15px 35px;
-    margin-bottom: 55px;
+    margin-bottom: 80px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     border-radius: 5px;
@@ -133,6 +134,11 @@ body {
     color: white;
     background-color: #696059;
     cursor: pointer;
+}
+
+.contactme:active{
+    color: black;
+    background-color: white;
 }
 
 
