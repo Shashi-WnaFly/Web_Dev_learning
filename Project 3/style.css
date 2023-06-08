@@ -145,11 +145,10 @@ body {
     display: flex;
     list-style: none;
     column-gap: 70px;
-    /* justify-content: center; */
+    justify-content: center;
     padding: 30px;
     background-color: #6F933B;
     margin-bottom: 0px;
-    c
 }
 
 .contact{
