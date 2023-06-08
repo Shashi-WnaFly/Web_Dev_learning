@@ -117,4 +117,22 @@ body {
     font-weight: bold;
 }
 
+.contactme{
+    padding: 15px 35px;
+    margin-bottom: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #14a58d;
+    background-color: #c7dca1;
+    font-size: 20px;
+    border: none;
+}
+
+.contactme:hover{
+    color: white;
+    background-color: #696059;
+    cursor: pointer;
+}
+
 
