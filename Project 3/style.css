@@ -62,7 +62,7 @@ body {
     margin: 30px 0px;
 }
 
-#hello{
+.hello{
     margin-bottom: 50px;
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
@@ -72,19 +72,49 @@ body {
 #abc{
     width: 95%;
 }
-#skill{
+
+#myskill{
     text-align: center;
     margin-top: 125px;
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
     color : #94B555;
 }
-.myskill{
+
+.skill{
     display: block;
     width: 800px;
     margin: auto;
     margin-top: 110px;
 }
-h3{
+
+#design_para{
+    margin-right: 40px;
+}
+
+.theme{
     color : #94B555;
 }
+
+.challenge{
+    width: 800px;
+    margin: 125px auto;
+    font-weight: bold;
+}
+
+#tech{
+    display: inline-block;
+    border: none;
+    border-radius: 100%;
+    width: 60%;
+    margin-left: 60px;
+}
+
+.touch{
+    width: 600px;
+    margin: 125px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+
