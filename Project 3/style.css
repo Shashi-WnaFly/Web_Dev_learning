@@ -22,7 +22,7 @@ body {
 
 #shashi{
     font-size: 82px;
-    color: #14a58d;
+    color: #41ce3e;
 }
 
 #programmer{
@@ -139,6 +139,36 @@ body {
 .contactme:active{
     color: black;
     background-color: white;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    column-gap: 70px;
+    /* justify-content: center; */
+    padding: 30px;
+    background-color: #6F933B;
+    margin-bottom: 0px;
+    c
+}
+
+.contact{
+    width: 70px;
+}
+
+#face:hover{
+    cursor: pointer;
+    content: url(facebook1.png);
+}
+
+#insta:hover{
+    cursor: pointer;
+    content: url(instagram1.png);
+}
+
+#linkedin:hover{
+    cursor: pointer;
+    content: url(linkedin1.png);
 }
 
 
