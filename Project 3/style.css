@@ -20,6 +20,10 @@ body {
     color: #696059;
 }
 
+#i{
+    color: #c85c5c;
+}
+
 #shashi{
     font-size: 82px;
     color: #41ce3e;
@@ -146,13 +150,13 @@ body {
     list-style: none;
     column-gap: 70px;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     background-color: #6F933B;
     margin-bottom: 0px;
 }
 
 .contact{
-    width: 70px;
+    width: 60px;
 }
 
 #face:hover{
@@ -169,5 +173,3 @@ body {
     cursor: pointer;
     content: url(linkedin1.png);
 }
-
-
