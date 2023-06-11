@@ -9,8 +9,8 @@
         
         body{
             font-family: 'Bree Serif', serif;
-            margin: 0%;
-            padding: 0%;
+            color: white;
+            background-color: black;
         }
         .navbar{
             margin-top: 0%;
@@ -24,7 +24,7 @@
             border-radius: 3rem;
             background: transparent;
         }
-
+        
         .navbar ul li{
             margin: 0.6rem 2rem;
             padding: 0.5rem 2.5rem;
@@ -33,14 +33,14 @@
         
         .navbar li a{
             text-decoration: none;
-            color: black;
+            color: white;
         }
-
+        
         .navbar li:hover{
             background-color: rgba(217, 249, 59, 0.137);
-
+            
         }
-
+        
         .uphead{
             display: flex;
             height: 30rem;
@@ -50,8 +50,16 @@
             justify-content: center;
             margin: 0rem auto;
         }
-        header{
-            background: url();
+        header::before{
+            background: url(arseny-togulev-kGix6_gPKjI-unsplash.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.5;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Clicker+Script&display=swap" rel="stylesheet">
