@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{  
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        header{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #494949;
+        }
+
+        .menu{
+            width: 430px;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+        }
+
+        .menu li{
+            display: inline-block;
+            margin: 8px 12px;
+            list-style: none;
+            padding: 8px 24px;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            font-size: 20px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .contacts button{
+            padding: 8px 24px;
+            background-color: #008aca;
+            font-size: 16px;
+            border: none;
+            border-radius: 23px;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .contacts button:hover{
+            cursor: pointer;
+            background-color: #494949;
+            color: #08a3ed;
+        }
+
+        .menu a:hover{
+            color: #08a3ed;
+            cursor: pointer;
+        }
+
+        .logo{
+            transition: all 0.3s ease 0s;
+        }
+
+        .logo:hover{
+            color: rgb(202, 46, 245);
+        }
+    </style>
+</head>
+<body><header>
+        <h2 class="logo">LOGO</h2>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+        <a class="contacts" href="#"><button>Contact</button></a>
+</header>
+</body>
+</html>
