@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful Nature</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Clicker+Script&family=Merriweather:wght@300&family=Oswald&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
+            font-family: 'Ubuntu', sans-serif;
         }
 
         body {
             color: white;
-            background-color: black;
+            background-color: #db8300;
+        }
+        
+        .head {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 60px;
         }
         
         .navbar ul {
             display: flex;
-            row-gap: 1rem;
             flex-direction: row-reverse;    
+            row-gap: 1rem;
         }
         
         .navbar ul li {
@@ -26,25 +34,27 @@
             padding: 10px;
             list-style: none;
         }
-
+        
         a {
             text-decoration: none;
-            font-size: 18px;
             color: white;
         } 
                  
         .logo {
-            display: block;
-            float: left;
-            margin: 20px 0 20px 70px;
             padding: 10px;
-
-        } 
-
+            font-family: 'Oswald', sans-serif;
+            font-size: 27px;
+            font-weight: 100;
+            color: #acff00;
+        }
+        
         .beauty {
+            color: #00ffe2;
             width: 30%;
             margin: 230px auto 0;
             text-align: center;
+            font-family: 'Clicker Script', cursive;
+            font-size: 70px;
         }
 
         p {
@@ -53,15 +63,15 @@
             text-align: center;
         }
 
-        .learnmore button {
-            padding: 10px 18px;
+        .learnmore {
+            padding: 10px 16px;
             border-radius: 23px;
             border: none;
         }
         
         .learnmore {
             display: block;
-            width: 10%;
+            width: 8%;
             margin: 0px auto;
             text-align: center;
         }
@@ -78,21 +88,39 @@
             opacity: 0.6;
         }
 
+        a:hover{
+            color: #00ffe2;
+            cursor: pointer;
+            padding-bottom: 15px;
+            border-bottom-style: solid;
+            transition: all 0.3s ease 0s;
+        }
+
+        .learnmore:hover {
+            background-color: #ff9800;
+            cursor: pointer;
+            transition: all 0.4s ease-in 0s;
+        }
+
     </style>
     <header class="head">
-        <h2 class="logo">LOGO</h2>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </nav>
+        <div>
+            <h2 class="logo">LOGO</h2>
+        </div>
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <h1 class="beauty">Beautiful Nature</h1>
     <p>Lorem ipsum dolor sit amet.</p>
-    <a href="#" class="learnmore"><button>Learn More</button></a>
+    <button class="learnmore">Learn More</button>
 </body>
 </html>
