@@ -4,13 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media query</title>
-    style</head>
+    <style>
+
+        .box {
+            padding: 30px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            display: none;
+        }
+
+        #box1 {
+            background-color: blueviolet;
+        }
+        #box2 {
+            background-color: rgb(43, 226, 131);
+        }
+        #box3 {
+            background-color: rgb(226, 43, 168);
+        }
+        #box4 {
+            background-color: rgb(226, 171, 43);
+        }
+
+        @media (min-width: 0px){
+            #box1{
+                display: block;
+            }
+        }
+        @media (min-width: 301px) and (max-width: 600px){
+            #box2{
+                display: block;
+            }
+        }
+        @media (min-width: 601px) and (max-width: 900px){
+            #box3{
+                display: block;
+            }
+        }
+        @media (min-width: 901px){
+            #box4{
+                display: block;
+            }
+        }
+        </style>
+    </head>
 <body>
     <div class="container">
-        <div id="box1">box-1</div>
-        <div id="box2">box-2</div>
-        <div id="box3">box-3</div>
-        <div id="box4">box-4</div>
+        <div class="box" id="box1">I am a Pig</div>
+        <div class="box" id="box2">I am a Lion</div>
+        <div class="box" id="box3">I am a Rhinosaurus</div>
+        <div class="box" id="box4">I am an Elephant</div>
     </div>
 </body>
 </html>
