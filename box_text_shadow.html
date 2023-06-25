@@ -16,16 +16,25 @@
         .box {
             margin: 30px;
             padding: 15px;
-            border: 2px solid blueviolet;
+            border: 2px solid blueviolet;    
             width: 300px;
             height: 300px;
             text-align: justify;
             line-height: 30px;
+            background-color: aliceblue;
         }
         
         .box:hover {
-            box-shadow: inset 4px 4px rgb(0, 200, 255);
-
+            box-shadow: 4px 4px rgb(0, 200, 255);
+            box-shadow: inset -4px -4px gold;
+            box-shadow: inset 5px 7px 10px hotpink;
+            box-shadow: -5px -5px 10px 10px brown; /* In this line offset-x offset-y (offset-x glow) (offset-y glow) */
+            box-shadow: 7px 5px 7px 12px rgb(0, 200, 255, 0.5);
+            box-shadow: 3px 5px 7px rgb(135, 190, 76), 8px 12px 7px rgb(255, 255, 0);
+        }
+        
+        #box1:hover {
+            text-shadow: 2px 2px 4px rgb(145, 255, 0, 0.5);
         }
 
 
@@ -34,7 +43,9 @@
 <body>
     <div class="container">
         <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus sint consequuntur magnam aut eius doloremque velit fuga iusto, asperiores excepturi enim. Adipisci blanditiis eius distinctio necessitatibus aspernatur quaerat maxime officia veritatis aut provident!</div>
+
         <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus sint consequuntur magnam aut eius doloremque velit fuga iusto, asperiores excepturi enim. Adipisci blanditiis eius distinctio necessitatibus aspernatur quaerat maxime officia veritatis aut provident!</div>
+
         <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus sint consequuntur magnam aut eius doloremque velit fuga iusto, asperiores excepturi enim. Adipisci blanditiis eius distinctio necessitatibus aspernatur quaerat maxime officia veritatis aut provident!</div>
     </div>
 </body>
