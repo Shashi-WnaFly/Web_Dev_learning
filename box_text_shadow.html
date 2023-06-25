@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>text and box shadow</title>
+    <style>
+        .container {
+            display: flex;
+            margin: 100px 100px;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            margin: 30px;
+            padding: 15px;
+            border: 2px solid blueviolet;
+            width: 300px;
+            height: 300px;
+            text-align: justify;
+            line-height: 30px;
+        }
+        
+        .box:hover {
+            box-shadow: inset 4px 4px rgb(0, 200, 255);
+
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus sint consequuntur magnam aut eius doloremque velit fuga iusto, asperiores excepturi enim. Adipisci blanditiis eius distinctio necessitatibus aspernatur quaerat maxime officia veritatis aut provident!</div>
+        <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus sint consequuntur magnam aut eius doloremque velit fuga iusto, asperiores excepturi enim. Adipisci blanditiis eius distinctio necessitatibus aspernatur quaerat maxime officia veritatis aut provident!</div>
+        <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus sint consequuntur magnam aut eius doloremque velit fuga iusto, asperiores excepturi enim. Adipisci blanditiis eius distinctio necessitatibus aspernatur quaerat maxime officia veritatis aut provident!</div>
+    </div>
 </body>
 </html>
