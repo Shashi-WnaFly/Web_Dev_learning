@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom variables</title>
+    <style>
+        :root {
+            --primary-color: rgb(0, 255, 234);
+            --back-color: rgba(204, 255, 0, 0.813);
+            --border-color: rgb(0, 119, 255);
+        }
+        .container {
+            display: flex;
+            width: 700px;
+            margin: auto;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .box {
+            display: inline-block;
+            /* --box-color: rgb(0, 255, 234); */
+            margin: 10px 10px;
+            padding: 10px;
+            background-color: var(--primary-color);
+            text-align: center;
+            width: 175px;
+            border: 2px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam cum, est sunt facilis laudantium voluptatibus fuga rem quam incidunt? Ducimus tenetur nulla dolor expedita reprehenderit adipisci, deserunt maiores maxime sit, ex quia nemo modi.</div>
+    
+            <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam cum, est sunt facilis laudantium voluptatibus fuga rem quam incidunt? Ducimus tenetur nulla dolor expedita reprehenderit adipisci, deserunt maiores maxime sit, ex quia nemo modi.</div>
+    
+            <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam cum, est sunt facilis laudantium voluptatibus fuga rem quam incidunt? Ducimus tenetur nulla dolor expedita reprehenderit adipisci, deserunt maiores maxime sit, ex quia nemo modi.</div>
+    
+        </div>
+    </section>
+</body>
+</html>
