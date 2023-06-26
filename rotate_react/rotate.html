@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image rotation</title>
+    <style>
+
+        body {
+            background-color: #222222;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        .box1{
+            width: 300px;
+            position: relative;
+            animation: rotate1 5s linear 1s infinite;
+        }
+
+        @keyframes rotate1 {
+            from {
+                rotate: 0deg;
+            }
+            to{
+                rotate: 360deg;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><img class="box1" src="/rotate_react/070f2aba-d9d6-4699-b887-9a0f29015b1b.png" alt=""></div>
+    </div>
+</body>
+</html>
