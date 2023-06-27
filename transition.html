@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition effect practice</title>
+    <style>
+        body{
+            background-color: #222222;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img{
+            width: 150px;
+            height: 150px;
+            border: none;
+            border-radius: 100%;
+            transition: all 0.7s ease-out 0s;
+        }
+        
+        .react {
+            display: flex;
+            width: 600px;
+            height: 250px;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 60px;
+        }
+        
+        .img_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+            
+        }
+        
+        .react:hover {
+            .img{
+                width: 125px;
+                height: 125px;
+                rotate: 360deg;
+            }
+            cursor: pointer;
+            .react_text{
+                color: #00D8FF;
+                transition: all 0.7s ease-in 0s;
+            }
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Clicker+Script&family=Merriweather:wght@300&family=Oswald&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="react">
+            <div class="img_box"><img class="img" src="/rotate_react/070f2aba-d9d6-4699-b887-9a0f29015b1b.png" alt=""></div>
+            <div class="react_text">React Native</div>
+        </div>
+    </div>
+</body>
+</html>
