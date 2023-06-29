@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid template area</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: 
+            'navbar navbar navbar'
+            'section section aside';
+        }
+
+        .item {
+            margin: 10px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        #navbar {
+            background-color:sandybrown;
+            grid-area: navbar;
+        }
+        
+        #section {
+            background-color:rgb(135, 96, 244);
+            grid-area: section;
+        }
+        
+        #aside {
+            background-color:rgb(200, 244, 96);
+            grid-area: aside;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item"><p>Home Login Search About Services</p></div>
+        <div id="section" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa sed explicabo officiis quibusdam tenetur, vitae commodi qui voluptatum reprehenderit blanditiis reiciendis odit! Facere reiciendis pariatur optio a nemo fugit voluptatem adipisci autem obcaecati distinctio? Eaque velit quasi impedit recusandae reiciendis atque minima, voluptas veniam sequi quibusdam magnam dolore neque consectetur reprehenderit hic eligendi libero adipisci facilis distinctio expedita nam aperiam. A in enim fugit, minus ut eius repudiandae officiis accusantium consectetur voluptas non tempora laboriosam facere? Pariatur quo ducimus beatae dicta nobis corporis consequuntur error veniam est veritatis laudantium accusantium esse incidunt labore, nemo aspernatur ad iste animi reiciendis sequi placeat voluptatem iure? Error laboriosam aperiam culpa ipsam ad facere soluta minus et itaque repellendus quae earum, provident odio iste ullam cum quis dolorum recusandae eos quaerat corporis vel magni! Nulla minus quasi assumenda beatae expedita a aliquam impedit accusantium quibusdam voluptates sequi illum totam enim neque quisquam nesciunt at in magni, quis excepturi, voluptatem iste iure! Quo nostrum facilis quod. In, ullam obcaecati cupiditate quidem expedita, reprehenderit quia error deleniti dolorum ut porro quae quos fuga iste impedit nam hic suscipit voluptate veritatis tempora sequi inventore tempore velit unde. Repellat doloremque eveniet alias, saepe exercitationem deleniti quo veritatis a natus, quidem optio assumenda. Officia corporis, tempore molestiae neque ullam asperiores ducimus tenetur commodi, incidunt quod itaque, nihil omnis labore impedit repudiandae vel! Veritatis repellendus repellat eius enim tenetur quia officia consequuntur unde nisi adipisci exercitationem minima voluptatibus inventore quaerat, tempore quidem debitis explicabo, dolorum eligendi animi id qui reprehenderit quam numquam. Nesciunt possimus autem eius suscipit deserunt repellat voluptate fugiat facilis quibusdam soluta incidunt hic, eos, sed qui dolor reprehenderit laudantium quo dolorum mollitia? Eius similique, pariatur maxime obcaecati voluptatem, beatae illo hic odit delectus doloremque dolore. Molestiae delectus sed doloribus ipsam modi beatae ullam consectetur suscipit natus adipisci.</div>
+        <div id="aside" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aliquid pariatur beatae corrupti. Delectus perspiciatis amet illo voluptates, a repellat distinctio vero necessitatibus! Corporis minima maiores porro debitis delectus velit laudantium enim illo alias in! Neque vel eius laudantium aliquam unde saepe dolorem, cupiditate eos similique minima autem sit quis quasi hic quae? A odio nulla, magni molestias quo laudantium voluptatum facilis deleniti, asperiores iure expedita delectus officia in et.</div>
+    </div>
+</body>
+</html>
